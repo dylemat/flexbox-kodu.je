@@ -6,12 +6,15 @@ body {
 
 .card-section {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap ;
+    flex-direction: row;
   background-color: #f7f8f8;
   height: 100%;
   width: 100%;
   padding: 5px;
   box-sizing: border-box;
+  justify-content: flex-end;
+  
 }
 
 .card {
