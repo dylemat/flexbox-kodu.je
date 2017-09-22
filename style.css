@@ -1,65 +1,79 @@
 body {
-  padding: 0;
-  margin: 0;
-  font-family: 'Montserrat';
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat';
 }
 
 .card-section {
+    background-color: #f7f8f8;
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
     display: flex;
-    flex-wrap: wrap ;
     flex-direction: row;
-  background-color: #f7f8f8;
-  height: 100%;
-  width: 100%;
-  padding: 5px;
-  box-sizing: border-box;
-  justify-content: flex-end;
-  
+    flex-wrap: wrap;
+justify-content: center;
+    align-items: center;
 }
 
 .card {
-  height: 130px;
-  width: 100px;
-  border-radius: 3px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  margin: 5px;
-
-  color: rgba(90, 92, 107, 0.85);
-  text-align: center;
-  font-size: 10px;
-  overflow: hidden;
+    height: 130px;
+    width: 100px;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 5px;
+    color: rgba(90, 92, 107, 0.85);
+    text-align: center;
+    font-size: 10px;
+    overflow: hidden;
 }
-
-
+.card-2, .card-3, .card-5 {
+  height: 150px;
+  width: 90px
+}
 .plate {
-  height: 70px;
-  width: 100%;
-  line-height: 70px;
-  font-size: 36px;
-
-  color: #ffffff;
-  background: #997fbc;
+    height: 70px;
+    width: 100%;
+    line-height: 70px;
+    font-size: 36px;
+    color: #ffffff;
+    background: #997fbc;
 }
+
 .card-1 .plate {
   background: #997fbc;
+  font-size: 40px;
 }
 
 .card-2 .plate {
   background: #92ded2;
+  font-size: 30px;
 }
 
 .card-3 .plate {
   background: #fdc28a;
+  font-size: 72px;
+.card-1 .plate {
+    background: #997fbc;
+}
+
+.card-2 .plate {
+    background: #92ded2;
+}
+
+.card-3 .plate {
+    background: #fdc28a;
 }
 
 .card-4 .plate {
-  background: #ee8ebc;
+    background: #ee8ebc;
 }
 
 .card-5 .plate {
-  background: #babc7f;
+    background: #babc7f;
 }
 
 .card-6 .plate {
-  background: #7f7fbc;
+    background: #7f7fbc;
 }
