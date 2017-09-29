@@ -4,6 +4,211 @@ body {
     font-family: 'Montserrat';
 }
 
+.navbar {
+  background-color: #ffffff;
+
+border-bottom: 1px solid #d6d7dd;
+
+   padding: 0 20px;
+
+
+
+flex-wrap: wrap;
+
+
+}
+
+.navbar-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+font-size: 10px;
+margin-left: auto;
+flex-wrap: wrap;
+flex-grow:1;
+justify-content:flex-end;
+}
+.navbar, .navbar-list, .navbar-branding ,.navbar-list a{
+  display: flex;
+  min-height: 60px;
+
+align-items: center;
+}
+.navbar, .navbar-list a {
+  color: #a4a6ae;
+}
+.navbar-list a {
+  text-decoration: none;
+  margin: 0 10px;
+    padding: 0 10px;
+
+
+}
+.navbar-branding img {
+  margin-right: 10px;
+}
+.navbar-list a:hover {
+  color: #997fbc;
+}
+.navbar-branding {
+  text-transform: uppercase;letter-spacing: 1.35px;
+}
+
+
+.card-section {
+  padding: 20px;
+  box-sizing: border-box;
+  min-height: 500px;
+ background-image: url('img/bg-image.svg');
+background-color: #f7f8fb;
+background-size: 150%;
+  background-position: center;
+  display: flex;
+    flex-wrap: wrap;
+justify-content: space-around;
+align-content: space-around;
+  align-items: center;
+}
+
+.card {
+  flex-basis: 100px;
+  height: 130px;
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 5px;
+
+  color: rgba(90, 92, 107, 0.85);
+  text-align: center;
+  font-size: 10px;
+  overflow: hidden;
+ align-items: center;
+  background-color: #ffffff;
+  display: flex;
+    flex-direction: column;
+}
+
+.plate {
+  height: 70px;
+  font-size: 36px;
+  color: #ffffff;
+align-self: stretch;
+justify-content: center;
+ align-items: center;
+display: flex;}
+
+.card-1 .plate {
+  background: #997fbc;
+}
+
+.card-2 .plate {
+  background: #92ded2;
+}
+
+.card-3 .plate {
+  background: #fdc28a;
+}
+
+.card-4 .plate {
+  background: #ee8ebc;
+}
+
+.card-5 .plate {
+  background: #babc7f;
+}
+
+.card-6 .plate {
+  background: #7f7fbc;
+}
+
+.page-footer {
+    flex-wrap: wrap;
+  background-color: lightgrey;
+  min-height: 160px;
+padding: 20px;
+display: flex;
+align-items: center;
+position: relative;
+justify-content: flex-end;
+
+
+}
+.page-footer h3 {
+  color: #5a5c6b;
+  font-size: 10px;
+}
+.page-footer h3, .page-footer p {
+  margin: 0;
+}
+
+.page-footer h3 {
+  color: #5a5c6b;
+  font-size: 10px;
+}
+.footer-wrapper {
+  flex-grow: 1;
+}
+.footer-item {
+  line-height: 10px;
+  font-size: 8px;
+  height: 10px;
+  margin-bottom: 10px;
+  color: #737481;
+}
+
+.footer-wrapper, .footer-list {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.about-company {
+
+ margin-right: auto;
+  display: flex;
+  max-width: 200px;
+  flex-direction: column;
+
+
+
+}
+.page-footer p,.footer-list a {
+  line-height: 13px;
+  font-size: 8px;
+  color: #737481;
+}
+.footer-list, .about-company {
+  min-height: 120px;
+  margin-bottom: 20px;
+}
+.social-media a {
+  text-decoration: none;
+}
+
+.page-footer::before {
+  content: '';
+  width: 100%;
+  height: 4px;
+  top: 0;
+    left: 0;
+position: absolute;
+
+    background-image:linear-gradient(90deg, #997fbc 40%, #92ded2 40%, #92ded2 80%, #fdc28a 80%);
+}
+
+.footer-list {
+  width: 100px;
+
+font-style: normal;
+}
+
+.footer-list ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+
+/*
 .card-section {
     background-color: #f7f8f8;
     height: 100%;
@@ -76,4 +281,215 @@ justify-content: center;
 
 .card-6 .plate {
     background: #7f7fbc;
+}*/
+/*.navbar,.navbar-list, .navbar-branding, .navbar-list a {
+  display: flex;
+  min-height: 60px;
+  align-items: center;
 }
+
+.navbar, .navbar-list a {
+  color: #a4a6ae;
+}
+
+.navbar {
+  background-color: #ffffff;
+
+  padding: 0 20px;
+
+  flex-wrap: wrap;
+  border-bottom: 1px solid #d6d7dd;
+}
+
+.navbar-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+  margin-left: auto;
+
+  flex-wrap: wrap;
+
+  flex-grow: 1;
+  justify-content: flex-end;
+
+  font-size: 10px;
+}
+
+.navbar-list a {
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 0 10px;
+}
+
+.navbar-list a:hover {
+  color: #997fbc;
+}
+
+.navbar-branding img {
+  margin-right: 10px;
+}
+
+.navbar-branding {
+  text-transform: uppercase;
+  letter-spacing: 1.35px;
+  font-size: 9px;
+}
+.page-footer h3, .page-footer p {
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.page-footer p, .footer-list a {
+  line-height: 13px;
+  font-size: 8px;
+  color: #737481;
+}
+
+.social-media a, .footer-list a {
+  text-decoration: none;
+}
+
+.page-footer h3 {
+  color: #5a5c6b;
+  font-size: 10px;
+}
+
+.page-footer {
+  background-color: #ffffff;
+  min-height: 160px;
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+
+  position: relative;
+}
+
+.page-footer::before {
+  content: '';
+  width: 100%;
+  height: 4px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  background-image: linear-gradient(90deg, #997fbc 40%, #92ded2 40%, #92ded2 80%, #fdc28a 80%);
+}
+
+.about-company {
+  max-width: 200px;
+
+  display: flex;
+  flex-direction: column;
+
+  margin-right: auto;
+}
+
+
+.footer-list {
+  width: 100px;
+
+  font-style: normal;
+}
+
+.footer-list ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.footer-wrapper, .footer-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-wrapper {
+  flex-grow: 1;
+}
+
+.footer-item {
+  line-height: 10px;
+  font-size: 8px;
+  height: 10px;
+  margin-bottom: 10px;
+  color: #737481;
+}
+
+.footer-list, .about-company {
+  min-height: 120px;
+  margin-bottom: 20px;
+}
+.card-section {
+  padding: 20px;
+  box-sizing: border-box;
+  min-height: 500px;
+
+  background-color: #f7f8fb;
+  background-image: url('img/bg-image.svg');
+  background-size: 150%;
+  background-position: center;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  align-items: center;
+}
+
+.card {
+  flex-basis: 100px;
+  height: 130px;
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 5px;
+
+  color: rgba(90, 92, 107, 0.85);
+  text-align: center;
+  font-size: 10px;
+  overflow: hidden;
+
+  background-color: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.plate {
+  height: 70px;
+  font-size: 36px;
+  color: #ffffff;
+  align-self: stretch;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-1 .plate {
+  background: #997fbc;
+}
+
+.card-2 .plate {
+  background: #92ded2;
+}
+
+.card-3 .plate {
+  background: #fdc28a;
+}
+
+.card-4 .plate {
+  background: #ee8ebc;
+}
+
+.card-5 .plate {
+  background: #babc7f;
+}
+
+.card-6 .plate {
+  background: #7f7fbc;
+}*/
